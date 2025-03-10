@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AgriPredict - AI-ML Price Prediction for Agricultural Commodities</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
         <div class="container">
@@ -29,7 +31,8 @@
     <section class="hero" id="home">
         <div class="hero-content">
             <h1>Price Predictor for Agricultural Commodities</h1>
-            <p>Leveraging advanced machine learning algorithms to predict market prices for pulses and vegetables, helping farmers and traders make informed decisions.</p>
+            <p>Leveraging advanced machine learning algorithms to predict market prices for pulses and vegetables,
+                helping farmers and traders make informed decisions.</p>
             <a href="#predictor" class="btn">Try Our Predictor now</a>
         </div>
     </section>
@@ -43,17 +46,20 @@
                 <div class="feature-box">
                     <div class="feature-icon">📊</div>
                     <h3>Price Forecasting</h3>
-                    <p>Advanced algorithms predict future price trends for pulses, onions, and potatoes based on historical data and key market factors.</p>
+                    <p>Advanced algorithms predict future price trends for pulses, onions, and potatoes based on
+                        historical data and key market factors.</p>
                 </div>
                 <div class="feature-box">
                     <div class="feature-icon">🌦️</div>
                     <h3>Weather Integration</h3>
-                    <p>Incorporates weather patterns and forecasts to improve prediction accuracy, accounting for climate impacts on crop yields.</p>
+                    <p>Incorporates weather patterns and forecasts to improve prediction accuracy, accounting for
+                        climate impacts on crop yields.</p>
                 </div>
                 <div class="feature-box">
                     <div class="feature-icon">📱</div>
                     <h3>Mobile Accessibility</h3>
-                    <p>Access predictions on-the-go through our responsive web interface, designed for farmers in rural areas.</p>
+                    <p>Access predictions on-the-go through our responsive web interface, designed for farmers in rural
+                        areas.</p>
                 </div>
             </div>
         </div>
@@ -70,9 +76,14 @@
                 </div>
                 <div class="about-text">
                     <h3>Empowering Agricultural Communities</h3>
-                    <p>Our project addresses a critical challenge in the agricultural sector: price volatility in essential commodities like pulses, onions, and potatoes. Small-scale farmers often face uncertainty about when to sell their produce to maximize returns.</p>
-                    <p>Using advanced machine learning techniques, we've developed prediction models that analyze multiple factors including historical price data, seasonal patterns, weather conditions, supply chain disruptions, and market demand.</p>
-                    <p>The goal is to provide farmers, traders, and policymakers with accurate price forecasts that can help stabilize markets and improve income security for agricultural communities.</p>
+                    <p>Our project addresses a critical challenge in the agricultural sector: price volatility in
+                        essential commodities like pulses, onions, and potatoes. Small-scale farmers often face
+                        uncertainty about when to sell their produce to maximize returns.</p>
+                    <p>Using advanced machine learning techniques, we've developed prediction models that analyze
+                        multiple factors including historical price data, seasonal patterns, weather conditions, supply
+                        chain disruptions, and market demand.</p>
+                    <p>The goal is to provide farmers, traders, and policymakers with accurate price forecasts that can
+                        help stabilize markets and improve income security for agricultural communities.</p>
                 </div>
             </div>
         </div>
@@ -87,31 +98,36 @@
                 <div class="timeline-item">
                     <div class="timeline-content">
                         <h3>Data Collection</h3>
-                        <p>Compiled 10+ years of historical price data from agricultural markets across India, along with weather patterns, import/export figures, and production statistics.</p>
+                        <p>Compiled 10+ years of historical price data from agricultural markets across India, along
+                            with weather patterns, import/export figures, and production statistics.</p>
                     </div>
                 </div>
                 <div class="timeline-item">
                     <div class="timeline-content">
                         <h3>Data Preprocessing</h3>
-                        <p>Cleaned and normalized data, handled missing values, and performed feature engineering to identify key price determinants.</p>
+                        <p>Cleaned and normalized data, handled missing values, and performed feature engineering to
+                            identify key price determinants.</p>
                     </div>
                 </div>
                 <div class="timeline-item">
                     <div class="timeline-content">
                         <h3>Model Development</h3>
-                        <p>Implemented ensemble learning combining LSTM networks, Random Forest, and XGBoost algorithms to capture both temporal patterns and external factors.</p>
+                        <p>Implemented ensemble learning combining LSTM networks, Random Forest, and XGBoost algorithms
+                            to capture both temporal patterns and external factors.</p>
                     </div>
                 </div>
                 <div class="timeline-item">
                     <div class="timeline-content">
                         <h3>Model Evaluation</h3>
-                        <p>Achieved 87% accuracy in short-term price predictions (7-14 days) and 76% accuracy for medium-term forecasts (1-3 months).</p>
+                        <p>Achieved 87% accuracy in short-term price predictions (7-14 days) and 76% accuracy for
+                            medium-term forecasts (1-3 months).</p>
                     </div>
                 </div>
                 <div class="timeline-item">
                     <div class="timeline-content">
                         <h3>Deployment</h3>
-                        <p>Created an accessible web platform with API integration for real-time price predictions and market insights.</p>
+                        <p>Created an accessible web platform with API integration for real-time price predictions and
+                            market insights.</p>
                     </div>
                 </div>
             </div>
@@ -129,115 +145,115 @@
                         <label for="commodity">Select Commodity</label>
                         <select id="commodity" class="form-control">
                             <option value="">-- Select --</option>
-<option value="onion">Onion</option>
-<option value="potato">Potato</option>
-<option value="tomato">Tomato</option>
-<option value="carrot">Carrot</option>
-<option value="cabbage">Cabbage</option>
-<option value="cauliflower">Cauliflower</option>
-<option value="broccoli">Broccoli</option>
-<option value="spinach">Spinach</option>
-<option value="lettuce">Lettuce</option>
-<option value="cucumber">Cucumber</option>
-<option value="capsicum">Capsicum (Bell Pepper)</option>
-<option value="pumpkin">Pumpkin</option>
-<option value="eggplant">Eggplant (Brinjal)</option>
-<option value="radish">Radish</option>
-<option value="beetroot">Beetroot</option>
-<option value="bottle_gourd">Bottle Gourd</option>
-<option value="bitter_gourd">Bitter Gourd</option>
-<option value="ridge_gourd">Ridge Gourd</option>
-<option value="zucchini">Zucchini</option>
-<option value="peas">Peas</option>
-<option value="corn">Corn</option>
-<option value="mushroom">Mushroom</option>
-<option value="drumstick">Drumstick</option>
-<option value="fenugreek">Fenugreek (Methi)</option>
-<option value="spring_onion">Spring Onion</option>
-<option value="sweet_potato">Sweet Potato</option>
-<option value="ash_gourd">Ash Gourd</option>
-<option value="turnip">Turnip</option>
-<option value="curry_leaves">Curry Leaves</option>
+                            <option value="onion">Onion</option>
+                            <option value="potato">Potato</option>
+                            <option value="tomato">Tomato</option>
+                            <option value="carrot">Carrot</option>
+                            <option value="cabbage">Cabbage</option>
+                            <option value="cauliflower">Cauliflower</option>
+                            <option value="broccoli">Broccoli</option>
+                            <option value="spinach">Spinach</option>
+                            <option value="lettuce">Lettuce</option>
+                            <option value="cucumber">Cucumber</option>
+                            <option value="capsicum">Capsicum (Bell Pepper)</option>
+                            <option value="pumpkin">Pumpkin</option>
+                            <option value="eggplant">Eggplant (Brinjal)</option>
+                            <option value="radish">Radish</option>
+                            <option value="beetroot">Beetroot</option>
+                            <option value="bottle_gourd">Bottle Gourd</option>
+                            <option value="bitter_gourd">Bitter Gourd</option>
+                            <option value="ridge_gourd">Ridge Gourd</option>
+                            <option value="zucchini">Zucchini</option>
+                            <option value="peas">Peas</option>
+                            <option value="corn">Corn</option>
+                            <option value="mushroom">Mushroom</option>
+                            <option value="drumstick">Drumstick</option>
+                            <option value="fenugreek">Fenugreek (Methi)</option>
+                            <option value="spring_onion">Spring Onion</option>
+                            <option value="sweet_potato">Sweet Potato</option>
+                            <option value="ash_gourd">Ash Gourd</option>
+                            <option value="turnip">Turnip</option>
+                            <option value="curry_leaves">Curry Leaves</option>
 
-<option value="lentils">Lentils (Masoor Dal)</option>
-<option value="chickpeas">Chickpeas (Chana Dal)</option>
-<option value="toor_dal">Pigeon Peas (Toor Dal)</option>
-<option value="moong_dal">Green Gram (Moong Dal)</option>
-<option value="urad_dal">Black Gram (Urad Dal)</option>
-<option value="rajma">Kidney Beans (Rajma)</option>
-<option value="black_chana">Black Chickpeas (Kala Chana)</option>
-<option value="white_chana">White Chickpeas (Kabuli Chana)</option>
-<option value="mung_beans">Mung Beans (Sabut Moong)</option>
-<option value="black_eyed_peas">Black Eyed Peas (Lobia)</option>
-<option value="green_peas">Green Peas (Hara Chana)</option>
-<option value="horse_gram">Horse Gram (Kulthi Dal)</option>
-<option value="moth_beans">Moth Beans (Matki)</option>
-<option value="soybeans">Soybeans</option>
-<option value="bengal_gram">Bengal Gram (Besan Dal)</option>
-<option value="broad_beans">Broad Beans (Sem Phali)</option>
-<option value="split_peas">Split Peas</option>
-<option value="field_beans">Field Beans (Valor Papdi)</option>
-<option value="navy_beans">Navy Beans</option>
-<option value="adzuki_beans">Adzuki Beans</option>
-<option value="fava_beans">Fava Beans</option>
-<option value="lentil_green">Green Lentils</option>
+                            <option value="lentils">Lentils (Masoor Dal)</option>
+                            <option value="chickpeas">Chickpeas (Chana Dal)</option>
+                            <option value="toor_dal">Pigeon Peas (Toor Dal)</option>
+                            <option value="moong_dal">Green Gram (Moong Dal)</option>
+                            <option value="urad_dal">Black Gram (Urad Dal)</option>
+                            <option value="rajma">Kidney Beans (Rajma)</option>
+                            <option value="black_chana">Black Chickpeas (Kala Chana)</option>
+                            <option value="white_chana">White Chickpeas (Kabuli Chana)</option>
+                            <option value="mung_beans">Mung Beans (Sabut Moong)</option>
+                            <option value="black_eyed_peas">Black Eyed Peas (Lobia)</option>
+                            <option value="green_peas">Green Peas (Hara Chana)</option>
+                            <option value="horse_gram">Horse Gram (Kulthi Dal)</option>
+                            <option value="moth_beans">Moth Beans (Matki)</option>
+                            <option value="soybeans">Soybeans</option>
+                            <option value="bengal_gram">Bengal Gram (Besan Dal)</option>
+                            <option value="broad_beans">Broad Beans (Sem Phali)</option>
+                            <option value="split_peas">Split Peas</option>
+                            <option value="field_beans">Field Beans (Valor Papdi)</option>
+                            <option value="navy_beans">Navy Beans</option>
+                            <option value="adzuki_beans">Adzuki Beans</option>
+                            <option value="fava_beans">Fava Beans</option>
+                            <option value="lentil_green">Green Lentils</option>
                             <option value="">-- Select --</option>
 
-<!-- Odisha-Specific Vegetables -->
-<option value="poi_saag">Poi Saag (Malabar Spinach)</option>
-<option value="kosala_saag">Kosala Saag</option>
-<option value="sajana_chhuin">Sajana Chhuin (Drumstick)</option>
-<option value="sajana_pat">Sajana Patra (Drumstick Leaves)</option>
-<option value="jibha_saag">Jibha Saag</option>
-<option value="kulei_saag">Kulei Saag</option>
-<option value="kosala_saag">Kosala Saag</option>
-<option value="mula_saag">Mula Saag (Radish Leaves)</option>
-<option value="kakharu">Kakharu (Pumpkin)</option>
-<option value="kakharu_phula">Kakharu Phula (Pumpkin Flowers)</option>
-<option value="janhi">Janhi (Ridge Gourd)</option>
-<option value="kundru">Kundru (Ivy Gourd)</option>
-<option value="ou">Ou (Elephant Apple)</option>
-<option value="bhendi">Bhendi (Okra/Ladyfinger)</option>
-<option value="soriso_saag">Soriso Saag (Mustard Greens)</option>
-<option value="sarada">Sarada (Pointed Gourd)</option>
-<option value="chuinchi">Chuinchi (Colocasia Stem)</option>
-<option value="saru">Saru (Colocasia Root/Taro)</option>
-<option value="mansa_kanda">Mansa Kanda (Yam)</option>
-<option value="ol_kanda">Ol Kanda (Elephant Foot Yam)</option>
-<option value="laukhi">Laukhi (Bottle Gourd)</option>
-<option value="pui_saag">Pui Saag (Ceylon Spinach)</option>
-<option value="matha_saag">Matha Saag (Amaranthus)</option>
-<option value="bhakura">Bhakura (Wild Spinach)</option>
-<option value="garoi_saag">Garoi Saag</option>
-<option value="kaincha_saag">Kaincha Saag (Ambadi Leaves)</option>
-<option value="mula">Mula (Radish)</option>
-<option value="dhania_patra">Dhania Patra (Coriander Leaves)</option>
-<option value="potal">Potal (Pointed Gourd)</option>
-<option value="gheekuanli">Gheekuanli (Aloe Vera Leaves)</option>
-<option value="barakoli">Barakoli (Broccoli)</option>
-<option value="santula_mix">Santula Mix (Local Mix of Seasonal Vegetables)</option>
+                            <!-- Odisha-Specific Vegetables -->
+                            <option value="poi_saag">Poi Saag (Malabar Spinach)</option>
+                            <option value="kosala_saag">Kosala Saag</option>
+                            <option value="sajana_chhuin">Sajana Chhuin (Drumstick)</option>
+                            <option value="sajana_pat">Sajana Patra (Drumstick Leaves)</option>
+                            <option value="jibha_saag">Jibha Saag</option>
+                            <option value="kulei_saag">Kulei Saag</option>
+                            <option value="kosala_saag">Kosala Saag</option>
+                            <option value="mula_saag">Mula Saag (Radish Leaves)</option>
+                            <option value="kakharu">Kakharu (Pumpkin)</option>
+                            <option value="kakharu_phula">Kakharu Phula (Pumpkin Flowers)</option>
+                            <option value="janhi">Janhi (Ridge Gourd)</option>
+                            <option value="kundru">Kundru (Ivy Gourd)</option>
+                            <option value="ou">Ou (Elephant Apple)</option>
+                            <option value="bhendi">Bhendi (Okra/Ladyfinger)</option>
+                            <option value="soriso_saag">Soriso Saag (Mustard Greens)</option>
+                            <option value="sarada">Sarada (Pointed Gourd)</option>
+                            <option value="chuinchi">Chuinchi (Colocasia Stem)</option>
+                            <option value="saru">Saru (Colocasia Root/Taro)</option>
+                            <option value="mansa_kanda">Mansa Kanda (Yam)</option>
+                            <option value="ol_kanda">Ol Kanda (Elephant Foot Yam)</option>
+                            <option value="laukhi">Laukhi (Bottle Gourd)</option>
+                            <option value="pui_saag">Pui Saag (Ceylon Spinach)</option>
+                            <option value="matha_saag">Matha Saag (Amaranthus)</option>
+                            <option value="bhakura">Bhakura (Wild Spinach)</option>
+                            <option value="garoi_saag">Garoi Saag</option>
+                            <option value="kaincha_saag">Kaincha Saag (Ambadi Leaves)</option>
+                            <option value="mula">Mula (Radish)</option>
+                            <option value="dhania_patra">Dhania Patra (Coriander Leaves)</option>
+                            <option value="potal">Potal (Pointed Gourd)</option>
+                            <option value="gheekuanli">Gheekuanli (Aloe Vera Leaves)</option>
+                            <option value="barakoli">Barakoli (Broccoli)</option>
+                            <option value="santula_mix">Santula Mix (Local Mix of Seasonal Vegetables)</option>
 
-<!-- Odisha-Specific Pulses -->
-<option value="muga_dali">Muga Dali (Green Gram Dal)</option>
-<option value="kandula_dali">Kandula Dali (Horse Gram Dal)</option>
-<option value="harada_dali">Harada Dali (Pigeon Pea Dal)</option>
-<option value="chana_dali">Chana Dali (Split Bengal Gram)</option>
-<option value="kulthi_dali">Kulthi Dali (Horse Gram)</option>
-<option value="khesari_dali">Khesari Dali (Lathyrus Pea)</option>
-<option value="biri_dali">Biri Dali (Urad Dal/Black Gram)</option>
-<option value="kala_chana">Kala Chana (Black Chickpeas)</option>
-<option value="kabuli_chana">Kabuli Chana (White Chickpeas)</option>
-<option value="janha_beans">Janha Beans (Dolichos Beans)</option>
-<option value="sarada_dali">Sarada Dali (Local Peas Dal)</option>
-<option value="rajma">Rajma (Kidney Beans)</option>
-<option value="lobia">Lobia (Black Eyed Peas)</option>
-<option value="bati_kandula">Bati Kandula (Local Lentil Variety)</option>
-<option value="mati_dali">Mati Dali (Local Black Gram)</option>
-<option value="arhar_dali">Arhar Dali (Toor Dal)</option>
-<option value="badam_dali">Badam Dali (Groundnut Dal)</option>
-<option value="soya_beans">Soya Beans</option>
-<option value="akhaya_kandula">Akhaya Kandula (Rare Odisha Pulse)</option>
-<option value="bati_saag">Bati Saag (Wild Edible Greens)</option>
+                            <!-- Odisha-Specific Pulses -->
+                            <option value="muga_dali">Muga Dali (Green Gram Dal)</option>
+                            <option value="kandula_dali">Kandula Dali (Horse Gram Dal)</option>
+                            <option value="harada_dali">Harada Dali (Pigeon Pea Dal)</option>
+                            <option value="chana_dali">Chana Dali (Split Bengal Gram)</option>
+                            <option value="kulthi_dali">Kulthi Dali (Horse Gram)</option>
+                            <option value="khesari_dali">Khesari Dali (Lathyrus Pea)</option>
+                            <option value="biri_dali">Biri Dali (Urad Dal/Black Gram)</option>
+                            <option value="kala_chana">Kala Chana (Black Chickpeas)</option>
+                            <option value="kabuli_chana">Kabuli Chana (White Chickpeas)</option>
+                            <option value="janha_beans">Janha Beans (Dolichos Beans)</option>
+                            <option value="sarada_dali">Sarada Dali (Local Peas Dal)</option>
+                            <option value="rajma">Rajma (Kidney Beans)</option>
+                            <option value="lobia">Lobia (Black Eyed Peas)</option>
+                            <option value="bati_kandula">Bati Kandula (Local Lentil Variety)</option>
+                            <option value="mati_dali">Mati Dali (Local Black Gram)</option>
+                            <option value="arhar_dali">Arhar Dali (Toor Dal)</option>
+                            <option value="badam_dali">Badam Dali (Groundnut Dal)</option>
+                            <option value="soya_beans">Soya Beans</option>
+                            <option value="akhaya_kandula">Akhaya Kandula (Rare Odisha Pulse)</option>
+                            <option value="bati_saag">Bati Saag (Wild Edible Greens)</option>
 
 
                         </select>
@@ -245,127 +261,127 @@
                     <div class="form-group">
                         <label for="location">Market Location</label>
                         <select id="location" class="form-control">
-                           <option value="">-- Select --</option>
-<option value="delhi">Delhi</option>
-<option value="mumbai">Mumbai</option>
-<option value="kolkata">Kolkata</option>
-<option value="chennai">Chennai</option>
-<option value="bangalore">Bangalore</option>
+                            <option value="">-- Select --</option>
+                            <option value="delhi">Delhi</option>
+                            <option value="mumbai">Mumbai</option>
+                            <option value="kolkata">Kolkata</option>
+                            <option value="chennai">Chennai</option>
+                            <option value="bangalore">Bangalore</option>
 
-<!-- Major Cities of Odisha -->
-<option value="bhubaneswar">Bhubaneswar</option>
-<option value="cuttack">Cuttack</option>
-<option value="rourkela">Rourkela</option>
-<option value="sambalpur">Sambalpur</option>
-<option value="berhampur">Berhampur</option>
-<option value="puri">Puri</option>
-<option value="balasore">Balasore</option>
-<option value="bhadrak">Bhadrak</option>
-<option value="baripada">Baripada</option>
-<option value="angul">Angul</option>
-<option value="dhenkanal">Dhenkanal</option>
-<option value="jharsuguda">Jharsuguda</option>
-<option value="koraput">Koraput</option>
-<option value="rayagada">Rayagada</option>
-<option value="bargarh">Bargarh</option>
-<option value="nayagarh">Bhawanipatna</option>
-<option value="jajpur">Nabarangpur</option>
-<option value="kendrapara">Kendrapara</option>
-<option value="keonjhar">Keonjhar</option>
-<option value="sundargarh">Sundargarh</option>
-<option value="titlagarh">Jaypur</option>
-<option value="paradip">Paradip</option>
-<option value="khordha">Khordha</option>
+                            <!-- Major Cities of Odisha -->
+                            <option value="bhubaneswar">Bhubaneswar</option>
+                            <option value="cuttack">Cuttack</option>
+                            <option value="rourkela">Rourkela</option>
+                            <option value="sambalpur">Sambalpur</option>
+                            <option value="berhampur">Berhampur</option>
+                            <option value="puri">Puri</option>
+                            <option value="balasore">Balasore</option>
+                            <option value="bhadrak">Bhadrak</option>
+                            <option value="baripada">Baripada</option>
+                            <option value="angul">Angul</option>
+                            <option value="dhenkanal">Dhenkanal</option>
+                            <option value="jharsuguda">Jharsuguda</option>
+                            <option value="koraput">Koraput</option>
+                            <option value="rayagada">Rayagada</option>
+                            <option value="bargarh">Bargarh</option>
+                            <option value="nayagarh">Bhawanipatna</option>
+                            <option value="jajpur">Nabarangpur</option>
+                            <option value="kendrapara">Kendrapara</option>
+                            <option value="keonjhar">Keonjhar</option>
+                            <option value="sundargarh">Sundargarh</option>
+                            <option value="titlagarh">Jaypur</option>
+                            <option value="paradip">Paradip</option>
+                            <option value="khordha">Khordha</option>
 
-<!-- Other Major Indian Cities -->
-<option value="ahmedabad">Ahmedabad</option>
-<option value="pune">Pune</option>
-<option value="hyderabad">Hyderabad</option>
-<option value="lucknow">Lucknow</option>
-<option value="jaipur">Jaipur</option>
-<option value="chandigarh">Chandigarh</option>
-<option value="bhopal">Bhopal</option>
-<option value="coimbatore">Coimbatore</option>
-<option value="visakhapatnam">Visakhapatnam</option>
-<option value="madurai">Madurai</option>
-<option value="patna">Patna</option>
-<option value="guwahati">Guwahati</option>
-<option value="nagpur">Nagpur</option>
-<option value="varanasi">Varanasi</option>
-<option value="ludhiana">Ludhiana</option>
-<option value="agra">Agra</option>
-<option value="meerut">Meerut</option>
-<option value="kanpur">Kanpur</option>
-<option value="dehradun">Dehradun</option>
-<option value="shimla">Shimla</option>
-<option value="ranchi">Ranchi</option>
-<option value="gangtok">Gangtok</option>
+                            <!-- Other Major Indian Cities -->
+                            <option value="ahmedabad">Ahmedabad</option>
+                            <option value="pune">Pune</option>
+                            <option value="hyderabad">Hyderabad</option>
+                            <option value="lucknow">Lucknow</option>
+                            <option value="jaipur">Jaipur</option>
+                            <option value="chandigarh">Chandigarh</option>
+                            <option value="bhopal">Bhopal</option>
+                            <option value="coimbatore">Coimbatore</option>
+                            <option value="visakhapatnam">Visakhapatnam</option>
+                            <option value="madurai">Madurai</option>
+                            <option value="patna">Patna</option>
+                            <option value="guwahati">Guwahati</option>
+                            <option value="nagpur">Nagpur</option>
+                            <option value="varanasi">Varanasi</option>
+                            <option value="ludhiana">Ludhiana</option>
+                            <option value="agra">Agra</option>
+                            <option value="meerut">Meerut</option>
+                            <option value="kanpur">Kanpur</option>
+                            <option value="dehradun">Dehradun</option>
+                            <option value="shimla">Shimla</option>
+                            <option value="ranchi">Ranchi</option>
+                            <option value="gangtok">Gangtok</option>
                             <option value="">-- Select --</option>
 
-<!-- More Cities from Odisha -->
-<option value="titilagarh">Titilagarh</option>
-<option value="malkangiri">Malkangiri</option>
-<option value="boudh">Boudh</option>
-<option value="sonepur">Sonepur</option>
-<option value="gopalpur">Gopalpur</option>
-<option value="gunupur">Gunupur</option>
-<option value="phulbani">Phulbani</option>
-<option value="nabarangpur">Nabarangpur</option>
-<option value="khariar">Khariar</option>
-<option value="jaipatna">Jaipatna</option>
-<option value="buguda">Buguda</option>
-<option value="digapahandi">Digapahandi</option>
-<option value="jeypore">Jeypore</option>
-<option value="sorada">Sorada</option>
-<option value="gudari">Gudari</option>
-<option value="bangiriposi">Bangiriposi</option>
-<option value="rengali">Rengali</option>
-<option value="gajapati">Gajapati</option>
-<option value="chatrapur">Chatrapur</option>
-<option value="chikiti">Chikiti</option>
-<option value="bhanjanagar">Bhanjanagar</option>
-<option value="narsinghpur">Narsinghpur</option>
-<option value="rambha">Rambha</option>
-<option value="tumudibandh">Tumudibandh</option>
-<option value="r.udayagiri">R. Udayagiri</option>
+                            <!-- More Cities from Odisha -->
+                            <option value="titilagarh">Titilagarh</option>
+                            <option value="malkangiri">Malkangiri</option>
+                            <option value="boudh">Boudh</option>
+                            <option value="sonepur">Sonepur</option>
+                            <option value="gopalpur">Gopalpur</option>
+                            <option value="gunupur">Gunupur</option>
+                            <option value="phulbani">Phulbani</option>
+                            <option value="nabarangpur">Nabarangpur</option>
+                            <option value="khariar">Khariar</option>
+                            <option value="jaipatna">Jaipatna</option>
+                            <option value="buguda">Buguda</option>
+                            <option value="digapahandi">Digapahandi</option>
+                            <option value="jeypore">Jeypore</option>
+                            <option value="sorada">Sorada</option>
+                            <option value="gudari">Gudari</option>
+                            <option value="bangiriposi">Bangiriposi</option>
+                            <option value="rengali">Rengali</option>
+                            <option value="gajapati">Gajapati</option>
+                            <option value="chatrapur">Chatrapur</option>
+                            <option value="chikiti">Chikiti</option>
+                            <option value="bhanjanagar">Bhanjanagar</option>
+                            <option value="narsinghpur">Narsinghpur</option>
+                            <option value="rambha">Rambha</option>
+                            <option value="tumudibandh">Tumudibandh</option>
+                            <option value="r.udayagiri">R. Udayagiri</option>
 
-<!-- More Cities from Other States -->
-<option value="amritsar">Amritsar</option>
-<option value="jalandhar">Jalandhar</option>
-<option value="gwalior">Gwalior</option>
-<option value="ujjain">Ujjain</option>
-<option value="raipur">Raipur</option>
-<option value="bilaspur">Bilaspur</option>
-<option value="kota">Kota</option>
-<option value="ajmer">Ajmer</option>
-<option value="jodhpur">Jodhpur</option>
-<option value="udaipur">Udaipur</option>
-<option value="nasik">Nasik</option>
-<option value="aurangabad">Aurangabad</option>
-<option value="thane">Thane</option>
-<option value="mangalore">Mangalore</option>
-<option value="mysore">Mysore</option>
-<option value="salem">Salem</option>
-<option value="tiruchirappalli">Tiruchirappalli</option>
-<option value="tirunelveli">Tirunelveli</option>
-<option value="vellore">Vellore</option>
-<option value="kollam">Kollam</option>
-<option value="thrissur">Thrissur</option>
-<option value="alappuzha">Alappuzha</option>
-<option value="silchar">Silchar</option>
-<option value="dibrugarh">Dibrugarh</option>
-<option value="itanagar">Itanagar</option>
-<option value="aizawl">Aizawl</option>
-<option value="imphal">Imphal</option>
-<option value="shillong">Shillong</option>
-<option value="kohima">Kohima</option>
-<option value="dimapur">Dimapur</option>
-<option value="agartala">Agartala</option>
-<option value="port_blair">Port Blair</option>
-<option value="panaji">Panaji</option>
-<option value="gangtok">Gangtok</option>
-<option value="leh">Leh</option>
-<option value="kargil">Kargil</option>
+                            <!-- More Cities from Other States -->
+                            <option value="amritsar">Amritsar</option>
+                            <option value="jalandhar">Jalandhar</option>
+                            <option value="gwalior">Gwalior</option>
+                            <option value="ujjain">Ujjain</option>
+                            <option value="raipur">Raipur</option>
+                            <option value="bilaspur">Bilaspur</option>
+                            <option value="kota">Kota</option>
+                            <option value="ajmer">Ajmer</option>
+                            <option value="jodhpur">Jodhpur</option>
+                            <option value="udaipur">Udaipur</option>
+                            <option value="nasik">Nasik</option>
+                            <option value="aurangabad">Aurangabad</option>
+                            <option value="thane">Thane</option>
+                            <option value="mangalore">Mangalore</option>
+                            <option value="mysore">Mysore</option>
+                            <option value="salem">Salem</option>
+                            <option value="tiruchirappalli">Tiruchirappalli</option>
+                            <option value="tirunelveli">Tirunelveli</option>
+                            <option value="vellore">Vellore</option>
+                            <option value="kollam">Kollam</option>
+                            <option value="thrissur">Thrissur</option>
+                            <option value="alappuzha">Alappuzha</option>
+                            <option value="silchar">Silchar</option>
+                            <option value="dibrugarh">Dibrugarh</option>
+                            <option value="itanagar">Itanagar</option>
+                            <option value="aizawl">Aizawl</option>
+                            <option value="imphal">Imphal</option>
+                            <option value="shillong">Shillong</option>
+                            <option value="kohima">Kohima</option>
+                            <option value="dimapur">Dimapur</option>
+                            <option value="agartala">Agartala</option>
+                            <option value="port_blair">Port Blair</option>
+                            <option value="panaji">Panaji</option>
+                            <option value="gangtok">Gangtok</option>
+                            <option value="leh">Leh</option>
+                            <option value="kargil">Kargil</option>
 
 
                         </select>
@@ -384,9 +400,13 @@
 
                 <div id="result-section" class="result-section">
                     <h3>Price Prediction Results</h3>
-                    <p id="prediction-summary">Based on our analysis, the prices for <span id="commodity-name">onions</span> in <span id="location-name">Delhi</span> are expected to <span id="trend">increase by 8-10%</span> over the next <span id="timeframe">7 days</span>.</p>
+                    <p id="prediction-summary">Based on our analysis, the prices for <span
+                            id="commodity-name">onions</span> in <span id="location-name">Delhi</span> are expected to
+                        <span id="trend">increase by 8-10%</span> over the next <span id="timeframe">7 days</span>.
+                    </p>
                     <div class="chart-container">
-                        <img src="photos/price chart.jpeg" alt="Price Prediction Chart" style="width: 100%; height: 100%; object-fit: cover;">
+                        <img src="photos/price chart.jpeg" alt="Price Prediction Chart"
+                            style="width: 100%; height: 100%; object-fit: cover;">
                     </div>
                     <div style="margin-top: 20px;">
                         <h4>Market Insights:</h4>
@@ -411,7 +431,7 @@
             <div class="team-grid">
                 <div class="team-member">
                     <div class="member-image">
-                        <img src="photos/Team_leader.jpg" alt="Team Member" >
+                        <img src="photos/Team_leader.jpg" alt="Team Member">
                     </div>
                     <div class="member-info">
                         <h3>Tilak Dalai</h3>
@@ -488,7 +508,8 @@
                 </div>
                 <div class="contact-info">
                     <h3>Contact Information</h3>
-                    <p>Have questions about our AI-ML price prediction model or interested in collaboration? Reach out to us.</p>
+                    <p>Have questions about our AI-ML price prediction model or interested in collaboration? Reach out
+                        to us.</p>
                     <div class="contact-method">
                         <span class="contact-icon">📧</span>
                         <span>team@agripredict.io</span>
@@ -541,68 +562,7 @@
         </div>
     </footer>
 
-    <script>
-        function showResults() {
-            const commodity = document.getElementById('commodity').value;
-            const location = document.getElementById('location').value;
-            const period = document.getElementById('prediction-period').value;
-            
-            if (!commodity || !location) {
-                alert('Please select both commodity and location');
-                return;
-            }
-            
-            const resultSection = document.getElementById('result-section');
-            resultSection.style.display = 'block';
-            
-            document.getElementById('commodity-name').textContent = 
-                document.getElementById('commodity').options[document.getElementById('commodity').selectedIndex].text;
-            document.getElementById('location-name').textContent = 
-                document.getElementById('location').options[document.getElementById('location').selectedIndex].text;
-            document.getElementById('timeframe').textContent = 
-                document.getElementById('prediction-period').options[document.getElementById('prediction-period').selectedIndex].text;
-            
-            
-            let trend, currentPrice, peakPrice, lowestPrice, confidence;
-            
-            if (commodity === 'onion') {
-                trend = 'increase by 8-10%';
-                currentPrice = '24.50';
-                peakPrice = '27.00';
-                lowestPrice = '23.00';
-                confidence = '85';
-            } else if (commodity === 'potato') {
-                trend = 'remain stable with slight fluctuations of 2-3%';
-                currentPrice = '18.75';
-                peakPrice = '19.50';
-                lowestPrice = '18.20';
-                confidence = '92';
-            } else if (commodity === 'tomato') {
-                trend = 'decrease by 5-7%';
-                currentPrice = '32.40';
-                peakPrice = '33.00';
-                lowestPrice = '30.10';
-                confidence = '78';
-            } else if (commodity === 'lentils') {
-                trend = 'increase gradually by 3-4%';
-                currentPrice = '95.20';
-                peakPrice = '99.00';
-                lowestPrice = '94.50';
-                confidence = '88';
-            } else {
-                trend = 'decrease initially by 2% then stabilize';
-                currentPrice = '62.80';
-                peakPrice = '63.20';
-                lowestPrice = '61.50';
-                confidence = '82';
-            }
-            document.getElementById('trend').textContent = trend;
-            document.getElementById('current-price').textContent = currentPrice;
-            document.getElementById('peak-price').textContent = peakPrice;
-            document.getElementById('lowest-price').textContent = lowestPrice;
-            document.getElementById('confidence').textContent = confidence;
-            resultSection.scrollIntoView({ behavior: 'smooth' });
-        }
-    </script>
+    <script src="script.js"></script>
 </body>
+
 </html>
